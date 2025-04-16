@@ -1,3 +1,4 @@
 Django
 playwright
 django-background-tasks
+gunicorn
