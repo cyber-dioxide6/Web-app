@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: django-playwright-app
+    env: python
+    buildCommand: "./build.sh"
+    startCommand: "gunicorn playwright_app.wsgi"
+    plan: free
